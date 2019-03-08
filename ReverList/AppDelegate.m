@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ReverseList.h"
+#import "MergeSortedList.h"
+#import "HashFind.h"
 
+#import "MedianFind.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +21,46 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    //单链表反转
+//    struct Node * head = constructList();
+//    printList(head);
+//    printf("--------------------\n");
+//    struct Node * newHead = reverseList(head);
+//    printList(newHead);
+    
+//    int a[5] = {1,4,6,7,9};
+//    int b[8] = {2,3,5,6,8,10,11,12};
+//
+//    int result[13];
+//    mergeList(a, 5, b, 8, result);
+//    for (int i = 0; i < 13; i++) {
+//        printf("%d  ",result[i]);
+//    }
+//    
+    /*
+     1.字符（char）是一个长度为8的数据类型，因此用功有2^8 =256种可能
+     2.每个字母根据其ASCII码值作为数组的下标对应数组的一个数字
+     3.数组中存储的是每个字符出现的次数
+     
+     哈希表
+     例：给定值是字母a，对应的ASCII值是97，数组索引下标为97
+     
+     char ----f(key)---->index
+     f(key) = key
+     存储和查找都通过该函数，有效提高查找效率
+     */
+    
+//    //Hash查找
+//    char cha[] = "abbaccddeeff";
+//    char fc = findFirstChar(cha);
+//    printf("this char is %c \n",fc);
+    
+    //无需数组找中位数
+    int list[6] = {12,9,16,24,5,8};
+    float median = findMideian(list, 6);
+    printf("the midian is %.1f",median);
+    
     return YES;
 }
 

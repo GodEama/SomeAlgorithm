@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D2A0F7322321C1400C07075 /* MedianFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A0F7222321C1400C07075 /* MedianFind.m */; };
 		9DB98C9D2231F67A00544A73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98C9C2231F67A00544A73 /* AppDelegate.m */; };
 		9DB98CA02231F67A00544A73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98C9F2231F67A00544A73 /* ViewController.m */; };
 		9DB98CA32231F67A00544A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB98CA12231F67A00544A73 /* Main.storyboard */; };
 		9DB98CA52231F67D00544A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB98CA42231F67D00544A73 /* Assets.xcassets */; };
 		9DB98CA82231F67D00544A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB98CA62231F67D00544A73 /* LaunchScreen.storyboard */; };
 		9DB98CAB2231F67D00544A73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98CAA2231F67D00544A73 /* main.m */; };
+		9DB98CB32231F6D200544A73 /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98CB22231F6D200544A73 /* ReverseList.m */; };
+		9DB98CB62232037500544A73 /* MergeSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98CB52232037500544A73 /* MergeSortedList.m */; };
+		9DB98CB92232105400544A73 /* HashFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98CB82232105400544A73 /* HashFind.m */; };
+		9DB98CBC2232165A00544A73 /* CommonSuperFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98CBB2232165A00544A73 /* CommonSuperFind.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D2A0F7122321C1400C07075 /* MedianFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedianFind.h; sourceTree = "<group>"; };
+		9D2A0F7222321C1400C07075 /* MedianFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedianFind.m; sourceTree = "<group>"; };
 		9DB98C982231F67A00544A73 /* ReverList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB98C9B2231F67A00544A73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DB98C9C2231F67A00544A73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,14 @@
 		9DB98CA72231F67D00544A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB98CA92231F67D00544A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DB98CAA2231F67D00544A73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DB98CB12231F6D200544A73 /* ReverseList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseList.h; sourceTree = "<group>"; };
+		9DB98CB22231F6D200544A73 /* ReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseList.m; sourceTree = "<group>"; };
+		9DB98CB42232037500544A73 /* MergeSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSortedList.h; sourceTree = "<group>"; };
+		9DB98CB52232037500544A73 /* MergeSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSortedList.m; sourceTree = "<group>"; };
+		9DB98CB72232105400544A73 /* HashFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashFind.h; sourceTree = "<group>"; };
+		9DB98CB82232105400544A73 /* HashFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashFind.m; sourceTree = "<group>"; };
+		9DB98CBA2232165A00544A73 /* CommonSuperFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSuperFind.h; sourceTree = "<group>"; };
+		9DB98CBB2232165A00544A73 /* CommonSuperFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonSuperFind.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				9DB98C9C2231F67A00544A73 /* AppDelegate.m */,
 				9DB98C9E2231F67A00544A73 /* ViewController.h */,
 				9DB98C9F2231F67A00544A73 /* ViewController.m */,
+				9DB98CB12231F6D200544A73 /* ReverseList.h */,
+				9DB98CB22231F6D200544A73 /* ReverseList.m */,
+				9DB98CB42232037500544A73 /* MergeSortedList.h */,
+				9DB98CB52232037500544A73 /* MergeSortedList.m */,
+				9DB98CB72232105400544A73 /* HashFind.h */,
+				9DB98CB82232105400544A73 /* HashFind.m */,
+				9DB98CBA2232165A00544A73 /* CommonSuperFind.h */,
+				9DB98CBB2232165A00544A73 /* CommonSuperFind.m */,
+				9D2A0F7122321C1400C07075 /* MedianFind.h */,
+				9D2A0F7222321C1400C07075 /* MedianFind.m */,
 				9DB98CA12231F67A00544A73 /* Main.storyboard */,
 				9DB98CA42231F67D00544A73 /* Assets.xcassets */,
 				9DB98CA62231F67D00544A73 /* LaunchScreen.storyboard */,
@@ -141,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB98CB92232105400544A73 /* HashFind.m in Sources */,
+				9DB98CB32231F6D200544A73 /* ReverseList.m in Sources */,
 				9DB98CA02231F67A00544A73 /* ViewController.m in Sources */,
+				9DB98CB62232037500544A73 /* MergeSortedList.m in Sources */,
+				9DB98CBC2232165A00544A73 /* CommonSuperFind.m in Sources */,
 				9DB98CAB2231F67D00544A73 /* main.m in Sources */,
+				9D2A0F7322321C1400C07075 /* MedianFind.m in Sources */,
 				9DB98C9D2231F67A00544A73 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
