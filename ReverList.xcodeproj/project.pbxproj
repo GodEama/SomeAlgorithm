@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D2A0F7322321C1400C07075 /* MedianFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A0F7222321C1400C07075 /* MedianFind.m */; };
+		9D2A0F762232619400C07075 /* reverseChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2A0F752232619400C07075 /* reverseChar.m */; };
 		9DB98C9D2231F67A00544A73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98C9C2231F67A00544A73 /* AppDelegate.m */; };
 		9DB98CA02231F67A00544A73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB98C9F2231F67A00544A73 /* ViewController.m */; };
 		9DB98CA32231F67A00544A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB98CA12231F67A00544A73 /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 /* Begin PBXFileReference section */
 		9D2A0F7122321C1400C07075 /* MedianFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedianFind.h; sourceTree = "<group>"; };
 		9D2A0F7222321C1400C07075 /* MedianFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedianFind.m; sourceTree = "<group>"; };
+		9D2A0F742232619400C07075 /* reverseChar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reverseChar.h; sourceTree = "<group>"; };
+		9D2A0F752232619400C07075 /* reverseChar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reverseChar.m; sourceTree = "<group>"; };
 		9DB98C982231F67A00544A73 /* ReverList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB98C9B2231F67A00544A73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DB98C9C2231F67A00544A73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				9DB98C9C2231F67A00544A73 /* AppDelegate.m */,
 				9DB98C9E2231F67A00544A73 /* ViewController.h */,
 				9DB98C9F2231F67A00544A73 /* ViewController.m */,
+				9D2A0F742232619400C07075 /* reverseChar.h */,
+				9D2A0F752232619400C07075 /* reverseChar.m */,
 				9DB98CB12231F6D200544A73 /* ReverseList.h */,
 				9DB98CB22231F6D200544A73 /* ReverseList.m */,
 				9DB98CB42232037500544A73 /* MergeSortedList.h */,
@@ -166,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2A0F762232619400C07075 /* reverseChar.m in Sources */,
 				9DB98CB92232105400544A73 /* HashFind.m in Sources */,
 				9DB98CB32231F6D200544A73 /* ReverseList.m in Sources */,
 				9DB98CA02231F67A00544A73 /* ViewController.m in Sources */,

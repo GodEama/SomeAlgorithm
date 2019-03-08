@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "reverseChar.h"
 #import "ReverseList.h"
 #import "MergeSortedList.h"
 #import "HashFind.h"
@@ -21,6 +22,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //反转字符串
+//    char ch[] = "hello,world";
+//    char_reverse(ch);
+//    printf("reverse result is %s",ch);
     
 //    //单链表反转
 //    struct Node * head = constructList();
